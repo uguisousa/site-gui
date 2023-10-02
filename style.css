@@ -1,5 +1,7 @@
 body{
-    background-image: url(Wallpaper\ -www.posintech.com\ \(1\).jpg);
+    background-image: url(wallpaperflare.com_wallpaper\ \(18\).jpg);
+    background-size: cover;
+    
 }
 
 nav{
@@ -8,6 +10,7 @@ nav{
     display: flex;    
     padding: 10px;
     font-size: 30px;
+
 }
 
 nav a{
@@ -20,9 +23,10 @@ nav a{
     padding: 10px;
     border-radius: 50px;
     position: relative;
+
 }
 nav a:hover{
-    color: rgb(109, 70, 227);
+    color: rgb(235, 157, 254);
 
 }
 nav a::after{
@@ -67,17 +71,19 @@ footer h1:hover::after{
 }
 
 #color{
-    color: rgb(70, 15, 233);
+    color: rgb(235, 157, 254);
 }
 
 h1{
     background-color: rgba(0, 0, 0, 0.0);
     padding: 20px;
     border-radius: 40px;
+    backdrop-filter: blur(2px);
+
 }
 
 /*  */
-/* BOTÃO DE VOLTAR/GERAL */
+/* BOTÃO DE VOLTAR/GERAL --------------------------------*/
 /*  */
 .v1{
     color: white;
@@ -95,8 +101,30 @@ h1{
     background-color: white;
     transition: 0.5s ease-in-out;
 }
-/*  */
+/* ----------------------------------------------------- */
 
-/* Sobre mim */
+/* BT HELO */
+input#bthelo{
+    border: none;
+    padding: 20px;
+    width: 215px;
+    transform: translate(1250px, 340px);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgba(0,0,0,0.0);
+    border-style: solid;
+    border-color: rgb(235, 157, 254);
+    border-radius: 100px;
+    box-shadow: 1px 1px 10px  rgb(235, 157, 254);
+    transition: 0.6s ease-in-out;
+}
+
+#bthelo:hover{
+    color:white;
+    background-color: rgb(235, 157, 254);
+    box-shadow: 1px 1px 10px inset rgb(235, 157, 254);
+
+}
+
 
 
